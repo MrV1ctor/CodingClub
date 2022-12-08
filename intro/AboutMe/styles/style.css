@@ -10,3 +10,27 @@
 .font {
     font-family: monospace;
 }
+
+.outline {
+    /* border-color: black;
+    border-style: solid;
+    border-width: 10px; */
+    outline-style: solid;
+    outline-width: 5px;
+    
+    padding: 10px;
+    padding-left: 30px;
+
+    margin: 0px;
+}
+
+.image-background {
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/c94eed56a5e84479a2939c9172434567c0147d4f.jpeg?region=0,0,600,600&width=480);
+
+    background-size: 100% 50px;
+    background-position: 25px 30px;
+    background-repeat: no-repeat;
+    padding: 50px;
+
+
+}
