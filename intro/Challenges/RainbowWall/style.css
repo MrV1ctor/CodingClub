@@ -1,0 +1,28 @@
+li {
+    font-family: "Lucida Grande";/*this is the font name*/
+    font-size: 20px;
+}
+
+#red {
+    color: red;
+}
+
+#orange {
+    color: orange;
+}
+
+#yellow {
+    color: yellow;
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+#purple {
+    color: purple;
+}

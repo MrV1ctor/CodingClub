@@ -1,0 +1,28 @@
+p {
+    border-color: black;
+    border-style: solid;
+    width: fit-content;
+    margin: 0px;
+}
+
+.small-padding {
+    padding: 0px;
+}
+
+.large-padding {
+    padding: 10px;
+}
+
+.large-margin {
+    margin: 10px;
+}
+
+.large-border {
+    border-width: 10px;
+}
+
+#sticky {
+    margin-top: 100px;
+    position: sticky;
+    top: 50px;
+}
