@@ -1,6 +1,9 @@
 p {
     border-color: black;
     border-style: solid;
+    /* border-bottom: 0px; */
+    outline-style: solid;
+    outline: 1000%;
     width: fit-content;
     margin: 0px;
 }

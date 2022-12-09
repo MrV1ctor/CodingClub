@@ -1,0 +1,15 @@
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+/* 
+.half-width p {
+    width: 50%;
+} */
+
+body .half-width {
+    width: 50%;
+}
