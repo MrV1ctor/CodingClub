@@ -1,3 +1,40 @@
+body {
+    margin: 0;
+    background: linear-gradient(red, orange);
+    background-repeat: no-repeat;
+}
+
+#header {
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.images {
+    display: table;
+}
+
 .project-image {
-    width: 10%;
+    /* Below is required if supplying px values instead of %s or other responsive measurements */
+    /* object-fit: contain; */
+    border-radius: 15%;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container {
+    display: table-cell;
+    padding-left: 1.6%;
+    padding-right: 1.6%;
+    width: 30%;
+    height: 30vw;
+}
+
+.divider {
+    min-height: 1px;
+    width: 100%;
+    height: 4vw;
 }
