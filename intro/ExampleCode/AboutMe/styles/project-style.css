@@ -1,19 +1,33 @@
 body {
     margin: 0;
-    background: linear-gradient(red, orange);
-    background-repeat: no-repeat;
+    background-color: rgb(246, 208, 42);
+    
+    width: 100%;
+    height: auto;
 }
 
 #header {
+    background-color: rgb(245, 53, 53);
     text-align: center;
     font-size: 4vw;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-2 {
+    margin-left: 3vw;
+    font-size: 4vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .images {
+    padding: 3vw;
     display: table;
+    background-image: url(https://i.pinimg.com/originals/4e/1a/58/4e1a583e27ff292e57535f4f7c24f4cb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .project-image {
@@ -21,20 +35,41 @@ body {
     /* object-fit: contain; */
     border-radius: 15%;
     border: 2px solid black;
-    width: 100%;
-    height: 100%;
+
+    width: 20vw;
+    height: auto;
+
+    background-color: white;
+    padding: 3vw;
+}
+
+.caption {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4vw;
+    margin: 10%;
 }
 
 .image-container {
     display: table-cell;
     padding-left: 1.6%;
     padding-right: 1.6%;
-    width: 30%;
-    height: 30vw;
+    width: 25%;
+    height: auto;
 }
 
 .divider {
     min-height: 1px;
     width: 100%;
     height: 4vw;
+    background: rgb(0, 0, 0, 0.1);
+}
+
+.description {
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+    margin: 5%;
 }
