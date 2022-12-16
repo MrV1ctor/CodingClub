@@ -1,75 +1,120 @@
+:root {
+    --default-font: Verdana, Geneva, Tahoma, sans-serif;
+    --primary-color: #FFE05D;
+    --secondary-color: #FF9642;
+}
+
 body {
     margin: 0;
-    background-color: rgb(246, 208, 42);
+    background-color: var(--primary-color);
     
     width: 100%;
     height: auto;
 }
 
 #header {
-    background-color: rgb(245, 53, 53);
+    background-color: var(--secondary-color);
     text-align: center;
     font-size: 4vw;
     margin: 0;
     padding-top: 1%;
     padding-bottom: 1%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--default-font);
+}
+
+.divider {
+    width: 100%;
+    height: auto;
+}
+
+.divider img {
+    width: 100%;
+    height: 25vw;
 }
 
 .header-2 {
-    margin-left: 3vw;
-    font-size: 4vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin: 0;
+    
+    text-align: center;
+    font-size: 3vw;
+    font-family: var(--default-font);
 }
 
 .images {
     padding: 3vw;
-    display: table;
+
+    display: flex;
+    justify-content: center;
+
+    background-position-y: -10vw;
     background-image: url(https://i.pinimg.com/originals/4e/1a/58/4e1a583e27ff292e57535f4f7c24f4cb.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .project-image {
-    /* Below is required if supplying px values instead of %s or other responsive measurements */
-    /* object-fit: contain; */
+    display: table-cell;
     border-radius: 15%;
     border: 2px solid black;
 
-    width: 20vw;
+    width: 10vw;
     height: auto;
 
     background-color: white;
-    padding: 3vw;
+    padding: 5vw;
+    margin: auto;
 }
 
 .caption {
     text-align: center;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 4vw;
+    font-family: var(--default-font);
+    font-size: 3vw;
+
     margin: 10%;
 }
 
 .image-container {
-    display: table-cell;
-    padding-left: 1.6%;
-    padding-right: 1.6%;
+    display: table;
+
+    padding-left: 1.6vw;
+    padding-right: 1.6vw;
+
     width: 25%;
     height: auto;
 }
 
-.divider {
-    min-height: 1px;
-    width: 100%;
-    height: 4vw;
-    background: rgb(0, 0, 0, 0.1);
+.desc-container {
+    justify-content: center;
+
+    box-shadow: 0.25vw 0.3vw 1vw var(--secondary-color);
+    
+    border: 2px solid var(--secondary-color);
+    border-radius: 15%;
+
+    width: 75%;
+
+    margin: 2vw;
+    margin-top: -2vw;
+    
+}
+
+
+.descs {
+    padding: 3vw;
+
+    display: flex;  
+    justify-content: center;
 }
 
 .description {
     text-align: center;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2vw;
-    margin: 5%;
+    font-family: var(--default-font);
+    font-size: 1.75vw;
+
+    margin: 0;
+    padding: 1vw;
 }
