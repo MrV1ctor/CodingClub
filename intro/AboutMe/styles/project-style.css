@@ -1,0 +1,21 @@
+:root {
+    --font: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.project-image {
+    border-radius: 15%;
+    border: 2px solid black;
+
+    width: 20vw;
+    height: auto;
+
+    margin: 3vw;
+}
+
+#header {
+    background-color: rgb(120, 205, 250);
+    font-family: var(--font);
+    text-align: center;
+    padding-bottom: 1%;
+    margin: 0;
+}
