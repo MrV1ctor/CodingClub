@@ -2,6 +2,7 @@
     --default-font: Verdana, Geneva, Tahoma, sans-serif;
     --primary-color: #FFE05D;
     --secondary-color: #FF9642;
+    background-color: var(--secondary-color);
 }
 
 body {
@@ -20,6 +21,9 @@ body {
     padding-top: 1%;
     padding-bottom: 1%;
     font-family: var(--default-font);
+
+    position: sticky;
+    top: 0;
 }
 
 .divider {
