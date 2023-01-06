@@ -19,3 +19,26 @@
     padding-bottom: 1%;
     margin: 0;
 }
+
+.image-container {
+    width: 25%;
+    height: auto;
+}
+
+.caption {
+    text-align: center;
+    font-size: 4vw;
+    
+    margin-top: 0;
+
+    color: white;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    
+    background-image: url(https://i.pinimg.com/originals/4e/1a/58/4e1a583e27ff292e57535f4f7c24f4cb.png);
+    background-size: cover;
+    background-position-y: -5vw; 
+}
