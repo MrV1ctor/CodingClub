@@ -1,5 +1,10 @@
 :root {
     --font: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+}
+
+body {
+    margin: 0;
 }
 
 .project-image {
@@ -10,6 +15,12 @@
     height: auto;
 
     margin: 3vw;
+
+    transition: width 0.3s;
+}
+
+.project-image:hover {
+    width: 24vw;
 }
 
 #header {
@@ -23,6 +34,10 @@
 .image-container {
     width: 25%;
     height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .caption {
@@ -32,6 +47,8 @@
     margin-top: 0;
 
     color: white;
+
+
 }
 
 .images {
@@ -41,4 +58,26 @@
     background-image: url(https://i.pinimg.com/originals/4e/1a/58/4e1a583e27ff292e57535f4f7c24f4cb.png);
     background-size: cover;
     background-position-y: -5vw; 
+}
+
+.descriptions {
+    padding: 3vw;
+    display: flex;
+    background-color: lightblue;
+}
+
+.description-container {
+    border: 2px solid blue;
+
+    border-radius: 15%;
+
+    box-shadow: 0.25vw 0.3vw 1vw blue;
+}
+
+.desc-header {
+    font-size: 5vw;
+}
+
+.description {
+    font-size: 3vw;
 }
