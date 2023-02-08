@@ -69,3 +69,33 @@ body {
 .nav-button:hover {
     cursor: pointer;
 }
+
+body {
+    background-image: url("../img/cityscape.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--black);
+    background-position-y: -25vw;
+    margin: 0;
+}
+
+.title-container {
+    margin-top: 30vw;
+    margin-left: 20vw;
+    width: 60vw;
+    height: 16vw;
+
+    backdrop-filter: blur(3px) sepia(60%) brightness(75%);
+    
+    border-radius: 30px;
+    box-shadow:  24px 24px 59px #433636,
+             -24px -24px 59px #e06060;
+}
+
+.title {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8vw;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2.5vw;
+}
