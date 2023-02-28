@@ -2,10 +2,20 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    margin: 0;
+    background-image: url(https://static.wikia.nocookie.net/disneytsumtsum/images/4/43/BeePooh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 #header {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 8vw;
+    background-color: coral;
 }
 
 #header-container {
@@ -26,8 +36,8 @@
 
 #header-logo {
     margin: 3vw;
-    width: 4vw;
-    height: 4vw;
+    width: 6vw;
+    height: 6vw;
 
     background-color: darkolivegreen;
 }
@@ -49,4 +59,22 @@
 .header-button:hover {
     background-color: chartreuse;
     border-radius: 10px;
+    cursor:pointer;
+}
+
+.title-container {
+    margin-top: 15vw;
+    width: 100%;
+    height: 16vw;
+
+    backdrop-filter: blur(3px) sepia(60%) brightness(75%);
+
+        
+}
+
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkorchid;
+    font-size: 8vw;
+    text-align: center;
 }
