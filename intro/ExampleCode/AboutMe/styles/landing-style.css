@@ -39,7 +39,7 @@ body {
 #nav-title {
     margin: 1vw;
     color: #fff;
-    font-size: 2rem;
+    font-size: 5vw;
     width: 20vw;
 }
 
@@ -63,7 +63,7 @@ body {
     color: #fff;
     background-color: transparent;
     border: 0;
-    font-size: 2rem;
+    font-size: 5vw;
 }
 
 .nav-button:hover {
