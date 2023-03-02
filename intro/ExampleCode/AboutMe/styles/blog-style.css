@@ -1,7 +1,36 @@
-div {
-    display: flex;
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2 {
-    margin-right: 100px;
+#blog-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-item {
+    border: 2px solid black;
+    border-bottom: none;
+
+    padding: 5px;
+}
+
+.table-item-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table-item-bottom {
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.table-item h2 {
+    color: black;
+    margin: 10px 0 10px 0;
+}
+
+.table-item p {
+    color:rgb(165, 165, 165);
+    margin: 5px 0 10px 0;
 }
