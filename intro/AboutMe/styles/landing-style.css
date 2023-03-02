@@ -44,7 +44,7 @@ body {
 
 #header-title {
     margin: 3vw;
-    /* font-size: 4vw; */
+    font-size: 4vw;
 }
 
 .header-button {
@@ -54,10 +54,11 @@ body {
     background-color: transparent;
     border: 2px solid green;
 
-    /* transition: background-color 1s;
-    transition: border-radius 1s; */
 
-    /* font-size: 2vw; */
+    transition: background-color 1s;
+    transition: border-radius 1s;
+
+    font-size: 2vw;
 }
 
 .header-button:hover {
@@ -68,13 +69,18 @@ body {
 
 .title-container {
     margin-top: 15vw;
+    margin-left: 20vw;
 
-    width: 100%;
+    width: 60vw;
     height: 16vw;
 
-    backdrop-filter: blur(3px) sepia(60%) brightness(75%);
+    backdrop-filter: blur(3px) 
+                    sepia(60%) 
+                    brightness(75%);
 
-        
+    border-radius: 10px;
+    
+    box-shadow: -4px -4px 20px red;
 }
 
 .title {
@@ -82,4 +88,5 @@ body {
     color: darkorchid;
     font-size: 8vw;
     text-align: center;
+    padding-top: 2.5vw;
 }
