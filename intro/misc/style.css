@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    min-height: 400px;
+    background-color: burlywood;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 2rem;
+    opacity: 0;
+    animation: translate 1000ms ease 200ms;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+.banner-desc {
+    opacity: 0;
+    animation: translate 1000ms ease 1000ms;
+    animation-fill-mode: forwards;   
+    position: relative;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+
+    opacity: 0;
+    animation: translate 1000ms ease 600ms;
+    animation-fill-mode: forwards;
+
+    position: relative;
+    background-color: darkorange;
+}
+  
+@keyframes translate {
+    from {opacity: 0; top: 100px;}
+    to {opacity: 1; top: 0px;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
