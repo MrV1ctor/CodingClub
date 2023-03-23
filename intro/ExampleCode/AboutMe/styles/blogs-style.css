@@ -4,6 +4,7 @@
 
 .blog-item {
     border: 3px solid green;
+    border-bottom: none;
     background-color: rgb(0, 66, 0);
 
     padding: 5px;
@@ -14,8 +15,8 @@
     border-top-right-radius: 10px;
 }
 
-
 .blog-item:nth-last-child(1) {
+    border-bottom: 3px solid green;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
