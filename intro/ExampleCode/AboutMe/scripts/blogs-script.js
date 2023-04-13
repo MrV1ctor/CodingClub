@@ -1,5 +1,5 @@
 
-fetch("https://club.rottinger.net/api/blogs")
+fetch("https://club.rottinger.net/api/blogs/QMAHk5aIVFaI4SGuHUu1LPZjci6CK41QuK1pDiOD")
 .then((response) => response.json())
 .then((blogs) => {
     
@@ -72,10 +72,16 @@ fetch("https://club.rottinger.net/api/blogs")
 
         blogItem.appendChild(title);
     
-        let description = document.createElement("p");
+        let description = document.createElement("h3");
         description.textContent = blogs[index].description;
     
         blogItem.appendChild(description);
+
+
+        let content = document.createElement("p");
+        content.textContent = blogs[index].content;
+    
+        blogItem.appendChild(content);
         
         document.getElementById("blog-table").appendChild(blogItem);
     }
