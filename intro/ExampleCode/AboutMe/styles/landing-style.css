@@ -43,6 +43,10 @@ body {
     width: 20vw;
 }
 
+a {
+    text-decoration: none;
+}
+
 #nav-logo {
     margin: 1vw;
     width: 4rem;

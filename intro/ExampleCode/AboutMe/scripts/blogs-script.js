@@ -72,10 +72,13 @@ fetch("https://club.rottinger.net/api/blogs/QMAHk5aIVFaI4SGuHUu1LPZjci6CK41QuK1p
 
         blogItem.appendChild(title);
     
-        let description = document.createElement("h3");
+        let description = document.createElement("p");
         description.textContent = blogs[index].description;
     
         blogItem.appendChild(description);
+        
+
+        blogItem.appendChild(document.createElement("br"));
 
 
         let content = document.createElement("p");
